@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-label="Laptop với mạng nơ-ron AI, lá chắn an toàn và các khối ý tưởng đang được lắp ghép">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <filter id="sd" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity=".35"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <circle cx="260" cy="210" r="190" fill="url(#g1)" opacity=".16"/>
+  <circle cx="260" cy="210" r="150" fill="none" stroke="#c4b5fd" stroke-opacity=".4" stroke-dasharray="4 10" stroke-width="2"/>
+  <!-- laptop -->
+  <g filter="url(#sd)">
+    <rect x="120" y="96" width="280" height="186" rx="16" fill="#0b1020"/>
+    <rect x="132" y="108" width="256" height="162" rx="8" fill="url(#scr)"/>
+    <path d="M92 290h336l-22 26H114z" fill="#1e293b"/>
+    <rect x="232" y="292" width="56" height="6" rx="3" fill="#334155"/>
+  </g>
+  <!-- mạng nơ-ron -->
+  <g stroke="#a5b4fc" stroke-opacity=".55" stroke-width="1.6">
+    <path d="M176 140L248 130M176 140L248 170M176 140L248 210M176 190L248 130M176 190L248 170M176 190L248 210M176 240L248 170M176 240L248 210M176 240L248 250M176 190L248 250"/>
+    <path d="M248 130L320 160M248 170L320 160M248 210L320 160M248 250L320 220M248 170L320 220M248 210L320 220M248 130L320 220"/>
+  </g>
+  <g>
+    <circle cx="176" cy="140" r="9" fill="#22d3ee"/><circle cx="176" cy="190" r="9" fill="#22d3ee"/><circle cx="176" cy="240" r="9" fill="#22d3ee"/>
+    <circle cx="248" cy="130" r="9" fill="#a78bfa"/><circle cx="248" cy="170" r="9" fill="#a78bfa"/><circle cx="248" cy="210" r="9" fill="#a78bfa"/><circle cx="248" cy="250" r="9" fill="#a78bfa"/>
+    <circle cx="320" cy="160" r="11" fill="#f97316"/><circle cx="320" cy="220" r="11" fill="#f97316"/>
+    <circle cx="320" cy="160" r="16" fill="#f97316" opacity=".35" filter="url(#glow)"/>
+  </g>
+  <text x="352" y="166" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="13" font-weight="800" fill="#fed7aa">AI</text>
+  <!-- lá chắn -->
+  <g transform="translate(398 108)" filter="url(#sd)">
+    <path d="M0-40l32 12v24c0 22-14 38-32 46-18-8-32-24-32-46v-24z" fill="url(#sh)"/>
+    <path d="M-12 2l8 8 17-18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- thẻ prompt -->
+  <g transform="translate(26 74)" filter="url(#sd)">
+    <rect width="150" height="74" rx="14" fill="#fff"/>
+    <text x="14" y="24" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="11" font-weight="800" fill="#7c3aed">PROMPT</text>
+    <rect x="14" y="34" width="110" height="7" rx="3.5" fill="#ddd6fe"/><rect x="14" y="48" width="84" height="7" rx="3.5" fill="#ede9fe"/>
+    <rect x="104" y="46" width="34" height="18" rx="9" fill="#7c3aed"/><path d="M116 55h10M122 51l4 4-4 4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- thẻ deepfake bị gắn nhãn -->
+  <g transform="translate(30 300)" filter="url(#sd)">
+    <rect width="150" height="70" rx="14" fill="#fff"/>
+    <circle cx="34" cy="35" r="18" fill="#e2e8f0"/><circle cx="34" cy="30" r="7" fill="#94a3b8"/><path d="M20 47c3-8 25-8 28 0" fill="#94a3b8"/>
+    <rect x="62" y="16" width="74" height="20" rx="10" fill="#ffe4e6"/>
+    <text x="72" y="30" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="10" font-weight="800" fill="#e11d48">ẢNH AI</text>
+    <rect x="62" y="44" width="60" height="7" rx="3.5" fill="#e2e8f0"/>
+  </g>
+  <!-- khối kiến tạo -->
+  <g transform="translate(352 300)" filter="url(#sd)">
+    <rect x="0" y="22" width="44" height="44" rx="10" fill="#f97316"/>
+    <rect x="50" y="22" width="44" height="44" rx="10" fill="#22d3ee"/>
+    <rect x="25" y="-26" width="44" height="44" rx="10" fill="#a78bfa"/>
+    <path d="M14 44h16M22 36v16" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M62 44l8 8 14-16" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="47" cy="-4" r="7" fill="none" stroke="#fff" stroke-width="3.5"/>
+  </g>
+  <g font-family="monospace" font-size="14" fill="#c7d2fe" opacity=".7">
+    <text x="420" y="410">0110 1010</text><text x="40" y="40">1001 0111</text><text x="214" y="370">{ AI }</text>
+  </g>
+</svg>

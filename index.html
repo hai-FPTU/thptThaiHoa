@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1b3f">
+<meta name="description" content="Trí tuệ nhân tạo &amp; An toàn thông tin – Kỷ nguyên AI: Từ người dùng thụ động đến nhà kiến tạo số. Tài liệu tương tác dành cho học sinh Trường THPT Thái Hòa.">
+<title>Trí tuệ nhân tạo &amp; An toàn thông tin – Kỷ nguyên AI | THPT Thái Hòa</title>
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap&subset=vietnamese" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#view">Bỏ qua, tới nội dung chính</a>
+
+<div class="binary" aria-hidden="true"></div>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#home" aria-label="Kiến Tạo Số – Trang chủ">
+      <img src="img/logo.svg" alt="" width="38" height="38">
+      <span><b>KIẾN TẠO SỐ</b><small>AI &amp; An toàn thông tin</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính"></nav>
+    <div class="tools">
+      <button class="iconbtn" id="sndBtn" aria-pressed="true" aria-label="Bật/tắt âm thanh" title="Âm thanh"></button>
+      <button class="iconbtn" id="fontBtn" aria-label="Đổi cỡ chữ" title="Cỡ chữ"></button>
+      <button class="iconbtn menu-btn" id="menuBtn" aria-label="Mở danh mục" aria-expanded="false"></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-bg" data-close></div>
+  <div class="drawer-panel" role="dialog" aria-label="Danh mục">
+    <div class="drawer-head"><b>Danh mục</b><button class="iconbtn" data-close aria-label="Đóng"></button></div>
+    <nav id="drawerNav"></nav>
+  </div>
+</div>
+
+<main id="view" tabindex="-1"></main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div>
+      <div class="brand light"><img src="img/logo.svg" alt="" width="36" height="36"><span><b>KIẾN TẠO SỐ</b><small>Kỷ nguyên AI: từ người dùng đến nhà kiến tạo</small></span></div>
+      <p>Tài liệu tương tác chuyên đề “Trí tuệ nhân tạo &amp; An toàn thông tin” dành cho học sinh <span class="nowrap">Trường THPT Thái Hòa</span>, ngày 16/11/2026.</p>
+      <p class="small">Tiến độ và tên của em chỉ lưu trên thiết bị này, không gửi đi đâu.</p>
+    </div>
+    <div>
+      <h4>Khám phá</h4>
+      <ul class="foot-links" id="footLinks"></ul>
+    </div>
+    <div>
+      <h4>Cần hỗ trợ ngay</h4>
+      <ul class="foot-hot">
+        <li><a href="tel:113"><b>113</b> Công an</a></li>
+        <li><a href="tel:111"><b>111</b> Bảo vệ trẻ em</a></li>
+        <li><a href="tel:156"><b>156</b> Phản ánh lừa đảo</a></li>
+      </ul>
+      <a class="btn small ghost-light" href="#baocao">Chế độ báo cáo viên</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span><span class="nowrap">Trường THPT Thái Hòa</span> · Năm học 2026 – 2027</span>
+    <span>Nội dung pháp luật được tóm tắt để tuyên truyền, cập nhật đến tháng 11/2026. Tra cứu toàn văn tại vbpl.vn.</span>
+  </div>
+</footer>
+<div class="binary bottom" aria-hidden="true"></div>
+
+<nav class="tabbar" id="tabbar" aria-label="Điều hướng nhanh"></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sr-only" id="srLive" aria-live="assertive"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="js/icons.js"></script>
+<script src="js/data.js"></script>
+<script src="js/core.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/games.js"></script>
+<script src="js/practice.js"></script>
+<script src="js/cert.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
